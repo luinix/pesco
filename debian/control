@@ -1,0 +1,36 @@
+Source: pesco
+Section: misc
+Priority: optional
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+DM-Upload-Allowed: yes
+Uploaders: Luis Rivas Vañó <luinix@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, pkg-config, mono-gmcs,
+ gtk-sharp2, libmono-cairo2.0-cil
+Standards-Version: 3.9.3
+Homepage: http://forja.rediris.es/projects/ec-ng/
+Vcs-Git: git://git.debian.org/debian-med/pesco.git
+Vcs-Browser: http://git.debian.org/?p=debian-med/pesco.git
+
+
+Package: pesco
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, pesco-data
+Description: Cognitive stimulation tool for elderly or cognitively impaired
+ Pesco is a free software (EUPL) tool whose main goal is to provide cognitive
+ stimulation for the elderly people and cognitive impaired. Its main goal is to
+ evaluate and cognitively stimulate people to prevent the cognitive impairment,
+ delaying the dependence from early stages. It provides test and exercises for
+ the neurological and functional rehabilitation of memory, concentration,
+ reasoning and organization.
+
+Package: pesco-data
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: pesco
+Description: Data files for Pesco, a cognitive stimulation tool
+ This package provides data files for Pesco, a free software (EUPL) tool whose
+ main goal is to provide cognitive stimulation for the elderly people and
+ cognitive impaired. Its main goal is to evaluate and cognitively stimulate
+ people to prevent the cognitive impairment, delaying the dependence from early
+ stages. It provides test and exercises for the neurological and functional
+ rehabilitation of memory, concentration, reasoning and organization.

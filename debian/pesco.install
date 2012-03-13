@@ -1,0 +1,4 @@
+debian/pesco-32x32.xpm usr/share/pixmaps
+debian/pesco.desktop usr/share/applications
+debian/tmp/usr/bin usr
+debian/tmp/usr/lib usr

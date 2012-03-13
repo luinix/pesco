@@ -1,0 +1,2 @@
+?package(pesco):needs="X11" section="Applications/Accessibility"\
+  title="Pesco" command="/usr/bin/pesco" icon="/usr/share/pixmaps/pesco-32x32.xpm"

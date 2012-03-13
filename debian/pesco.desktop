@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Pesco
+GenericName=Pesco cognitive stimulation tool
+Comment=Tool for cognitive stimulation
+Name[es_ES]=Pesco
+GenericName[es_ES]=Herramienta de estimulación cognitiva Pesco
+Comment[es_ES]=Herramienta para la estimulación cognitiva
+Exec=pesco
+Terminal=false
+Icon=/usr/share/pixmaps/pesco-32x32.xpm
+StartupNotify=true
+Categories=GNOME;GTK;Utility;Accessibility;

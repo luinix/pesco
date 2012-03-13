@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# debian/rules file for pesco
+# Author: Luis Rivas Vañó <luinix@gmail.com>
+# License: GPL-3.0+
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+override_dh_installchangelogs:
+	dh_installchangelogs ${CURDIR}/pesco/CHANGES.txt
+
+override_dh_auto_install:
+	dh_auto_install
+	rm -f ${CURDIR}/debian/tmp/usr/share/pesco/LICENSE.pdf
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod 755 $(CURDIR)/debian/pesco-data/usr/share/pesco/mp3script
+
+%:
+	dh $@ 
