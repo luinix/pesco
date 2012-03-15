@@ -1,6 +1,6 @@
 Author: Luis Rivas Vañó <luinix@gmail.com>
-Description: This patch fixes the independent files location
-Forwarded: no
+Description: This patch fixes the arch-independent files location
+Forwarded: yes
 Index: pesco-1.2/pesco/Makefile.in
 ===================================================================
 --- pesco-1.2.orig/pesco/Makefile.in	2012-03-13 14:19:54.085824863 +0100
