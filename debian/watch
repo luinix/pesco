@@ -1,0 +1,4 @@
+# watch control file for uscan
+version=3
+http://forja.rediris.es/frs/?group_id=805 \
+/frs/download\.php/\d+/pesco-([\d\.]*)\.tar\.gz
