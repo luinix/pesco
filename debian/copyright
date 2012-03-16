@@ -3,7 +3,7 @@ Upstream-Name: pesco
 Source: http://forja.rediris.es/projects/ec-ng/files/
 
 Files: *
-Copyright: 2012 GEDES Universidad de Granada <mjfortiz@ugr.es>
+Copyright: 2012 Grupo MYDASS Universidad de Granada <mjfortiz@ugr.es>
 License: EUPL-1.1
 
 Files: debian/*
