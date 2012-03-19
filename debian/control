@@ -14,7 +14,7 @@ Vcs-Browser: http://git.debian.org/?p=debian-med/pesco.git
 
 Package: pesco
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, pesco-data
+Depends: ${shlibs:Depends}, ${misc:Depends}, gtk-sharp2, pesco-data
 Description: Cognitive stimulation tool for elderly or cognitively impaired
  Pesco is a free software (EUPL) tool whose main goal is to provide cognitive
  stimulation for the elderly people and cognitive impaired. Its main goal is to
